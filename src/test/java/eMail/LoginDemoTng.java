@@ -26,8 +26,8 @@ public class LoginDemoTng {
 
 		driver.findElement(By.xpath(".//*[@id='gbw']/div/div/div[1]/div[1]/a")).click();
 
-		driver.findElement(By.cssSelector("#Email")).clear();
-		driver.findElement(By.cssSelector("#Email")).sendKeys("govtechtesting");
+		driver.findElement(By.cssSelector("#Emai")).clear();
+		driver.findElement(By.cssSelector("#Emai")).sendKeys("govtechtesting");
 		Thread.sleep(2000);
 
 		 driver.findElement(By.cssSelector("#next")).click();
