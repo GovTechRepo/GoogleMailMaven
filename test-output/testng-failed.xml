@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="eMail.LoginDemo">
+      <class name="eMail.LoginDemoTng">
         <methods>
-          <include name="compose"/>
-          <include name="logout"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- eMail.LoginDemo -->
+      </class> <!-- eMail.LoginDemoTng -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
