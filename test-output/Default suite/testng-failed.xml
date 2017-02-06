@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="eMail.LoginDemoTng">
+      <class name="eMail.GmailDemo_InValidLogin">
         <methods>
-          <include name="logout"/>
-          <include name="compose"/>
+          <include name="driverLaunch"/>
+          <include name="TC3_InValidlogin"/>
         </methods>
-      </class> <!-- eMail.LoginDemoTng -->
+      </class> <!-- eMail.GmailDemo_InValidLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

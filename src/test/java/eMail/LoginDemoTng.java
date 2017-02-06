@@ -1,6 +1,5 @@
 package eMail;
 
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
@@ -13,7 +12,7 @@ public class LoginDemoTng {
 
 	public static WebDriver driver;
 
-	@Test(priority=1)
+	@Test(priority = 1)
 	public void login() throws Exception {
 
 		System.setProperty("webdriver.gecko.driver",
@@ -31,8 +30,8 @@ public class LoginDemoTng {
 		driver.findElement(By.cssSelector("#Email")).sendKeys("govtechtesting");
 		Thread.sleep(2000);
 
-		 driver.findElement(By.cssSelector("#next")).click();
-		//driver.findElement(By.xpath("//*[@id='next']")).click();
+		driver.findElement(By.cssSelector("#next")).click();
+		// driver.findElement(By.xpath("//*[@id='next']")).click();
 		// driver.findElement(By.xpath("//div[contains(text(),'next')]")).click();
 
 		Thread.sleep(3000);
@@ -47,13 +46,12 @@ public class LoginDemoTng {
 		Thread.sleep(2000);
 
 	}
-	
-    @AfterTest
 
-	@Test(priority=2)
+	@Test(priority = 2)
 	public void compose() throws Exception {
 
-		driver.findElement(By.xpath("//div[contains(text(),'COMPOSE')]")).click();
+		WebElement composeElement = driver.findElement(By.xpath("//div[contains(text(),'COMPOSE')]"));
+		composeElement.click();
 		Thread.sleep(4000);
 
 		driver.findElement(By.xpath("//textarea[@name='to']")).sendKeys("Gov Tech <govtechtesting@gmail.com>");
@@ -70,7 +68,7 @@ public class LoginDemoTng {
 
 	}
 
-	@Test(priority=3)
+	@Test(priority = 3)
 	public void logout() throws Exception {
 
 		driver.findElement(By.xpath(".//*[@id='gb']/div[1]/div[1]/div[2]/div[4]/div[1]/a/span")).click();
