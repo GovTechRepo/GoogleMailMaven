@@ -38,8 +38,7 @@ public class GmailDemo_InValidLogin {
 		driver.findElement(By.cssSelector("#Email")).clear();
 		driver.findElement(By.cssSelector("#Email")).sendKeys("govtechtesting");
 			
-		WebElement nextElement = driver.findElement(By.xpath("//input[contains(@value,'Nextt')]"));
-		nextElement.click();
+		driver.findElement(By.xpath("//input[contains(@value,'Next')]")).click();
 												
 		driver.findElement(By.cssSelector("#Passwd")).clear();
 		driver.findElement(By.cssSelector("#Passwd")).sendKeys("govtechtesting11");
