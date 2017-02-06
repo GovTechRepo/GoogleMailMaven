@@ -5,7 +5,8 @@
     <classes>
       <class name="eMail.LoginDemoTng">
         <methods>
-          <include name="login"/>
+          <include name="logout"/>
+          <include name="compose"/>
         </methods>
       </class> <!-- eMail.LoginDemoTng -->
     </classes>

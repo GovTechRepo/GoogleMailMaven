@@ -1,5 +1,6 @@
 package eMail;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
@@ -12,7 +13,7 @@ public class LoginDemoTng {
 
 	public static WebDriver driver;
 
-	@Test(priority = 1)
+	@Test(priority=1)
 	public void login() throws Exception {
 
 		System.setProperty("webdriver.gecko.driver",
@@ -45,10 +46,12 @@ public class LoginDemoTng {
 		System.out.println(driver.getTitle());
 		Thread.sleep(2000);
 
-/*	}
+	}
+	
+    @AfterTest
 
-	@Test(priority = 2)
-	public void compose() throws Exception {*/
+	@Test(priority=2)
+	public void compose() throws Exception {
 
 		driver.findElement(By.xpath("//div[contains(text(),'COMPOSE')]")).click();
 		Thread.sleep(4000);
@@ -65,10 +68,10 @@ public class LoginDemoTng {
 
 		driver.findElement(By.xpath("//div[contains(text(),'Send')]")).click();
 
-/*	}
+	}
 
-	@Test(priority = 3)
-	public void logout() throws Exception {*/
+	@Test(priority=3)
+	public void logout() throws Exception {
 
 		driver.findElement(By.xpath(".//*[@id='gb']/div[1]/div[1]/div[2]/div[4]/div[1]/a/span")).click();
 		Thread.sleep(3000);
