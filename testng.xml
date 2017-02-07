@@ -1,14 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Gmail" >
+<suite name="Gmail">
 	<test name="GmailTest">
 		<classes>
-			<class name="LoginDemoTng">
-				<methods>
-					<include name="login" />
-					<include name="compose" />
-					<include name="logout" />
-				</methods>
+			<class name="GmailDemo_InValidLogin" />
+			<class name="Utility">
 			</class>
 		</classes>
 	</test>

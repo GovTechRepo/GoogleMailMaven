@@ -6,6 +6,7 @@
       <class name="eMail.GmailDemo_InValidLogin">
         <methods>
           <include name="driverLaunch"/>
+          <include name="takeScreenShotOnFailure"/>
           <include name="TC3_InValidlogin"/>
         </methods>
       </class> <!-- eMail.GmailDemo_InValidLogin -->
