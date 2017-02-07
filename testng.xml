@@ -3,8 +3,8 @@
 <suite name="Gmail">
 	<test name="GmailTest">
 		<classes>
-			<class name="GmailDemo_InValidLogin" />
-			<class name="Utility">
+			<class name="GmailDemo" />
+			<class name="GmailDemo_InValidLogin" >
 			</class>
 		</classes>
 	</test>
