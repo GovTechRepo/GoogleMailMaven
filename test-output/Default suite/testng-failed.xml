@@ -10,11 +10,6 @@
           <include name="TC3_InValidlogin"/>
         </methods>
       </class> <!-- eMail.GmailDemo_InValidLogin -->
-      <class name="eMail.GmailDemo">
-        <methods>
-          <include name="driverLaunch"/>
-        </methods>
-      </class> <!-- eMail.GmailDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

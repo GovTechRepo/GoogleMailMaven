@@ -66,12 +66,10 @@ public class GmailDemo_InValidLogin {
 	public void takeScreenShotOnFailure(ITestResult testResult) throws IOException {
 		if (testResult.getStatus() == ITestResult.FAILURE) {
 			System.out.println(testResult.getStatus());
-			File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			//FileUtils.copyFile(scrFile, new File("C:\\Users\\IDACTMO002\\Desktop\\PPT_310117"));
 			
-			String Failure = null;
-			String FailureScreenShotName = Failure ;
-			FileUtils.copyFile(scrFile, new File(".//test-output//Screenshots//"+FailureScreenShotName+".png"));
+						File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);						
+			String ScreenShot = null;
+			FileUtils.copyFile(scrFile, new File(".//test-output//Screenshots//"+ScreenShot+".png"));
 	   }        
 	}
 
