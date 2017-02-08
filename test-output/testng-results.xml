@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34532" started-at="2017-02-07T16:36:57Z" finished-at="2017-02-07T16:37:32Z">
+  <suite name="Default suite" duration-ms="36517" started-at="2017-02-08T09:39:19Z" finished-at="2017-02-08T09:39:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34532" started-at="2017-02-07T16:36:57Z" finished-at="2017-02-07T16:37:32Z">
+    <test name="Default test" duration-ms="36517" started-at="2017-02-08T09:39:19Z" finished-at="2017-02-08T09:39:56Z">
       <class name="eMail.GmailDemo_InValidLogin">
-        <test-method status="PASS" signature="driverLaunch()[pri:0, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="driverLaunch" is-config="true" duration-ms="7" started-at="2017-02-08T00:36:57Z" finished-at="2017-02-08T00:36:57Z">
+        <test-method status="PASS" signature="driverLaunch()[pri:0, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="driverLaunch" is-config="true" duration-ms="7" started-at="2017-02-08T17:39:19Z" finished-at="2017-02-08T17:39:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverLaunch -->
-        <test-method status="PASS" signature="TC1_OpenBrowser()[pri:1, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="TC1_OpenBrowser" duration-ms="2595" started-at="2017-02-08T00:36:57Z" finished-at="2017-02-08T00:37:00Z">
+        <test-method status="PASS" signature="TC1_OpenBrowser()[pri:1, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="TC1_OpenBrowser" duration-ms="4341" started-at="2017-02-08T17:39:19Z" finished-at="2017-02-08T17:39:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1_OpenBrowser -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2017-02-08T00:37:00Z" finished-at="2017-02-08T00:37:00Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-02-08T17:39:24Z" finished-at="2017-02-08T17:39:24Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="TC2_LaunchGoogle()[pri:2, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="TC2_LaunchGoogle" duration-ms="924" started-at="2017-02-08T00:37:00Z" finished-at="2017-02-08T00:37:01Z">
+        <test-method status="PASS" signature="TC2_LaunchGoogle()[pri:2, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="TC2_LaunchGoogle" duration-ms="1165" started-at="2017-02-08T17:39:24Z" finished-at="2017-02-08T17:39:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC2_LaunchGoogle -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2017-02-08T00:37:01Z" finished-at="2017-02-08T00:37:01Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-02-08T17:39:25Z" finished-at="2017-02-08T17:39:25Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="FAIL" signature="TC3_InValidlogin()[pri:3, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="TC3_InValidlogin" duration-ms="30892" started-at="2017-02-08T00:37:01Z" finished-at="2017-02-08T00:37:32Z">
+        <test-method status="FAIL" signature="TC3_InValidlogin()[pri:3, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="TC3_InValidlogin" duration-ms="30853" started-at="2017-02-08T17:39:25Z" finished-at="2017-02-08T17:39:56Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: .//*[@id='next'][@type='submit'][@value='Nextt']
@@ -49,8 +49,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
 System info: host: 'GOVTECH-CTMO-02', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=19512, browserVersion=51.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
-Session ID: 0f006edd-8b92-4241-98cb-7f4e8c0a15f8
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=1928, browserVersion=51.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 2b091bc7-e186-4a39-9967-c4d6a5585963
 *** Element info: {Using=xpath, value=.//*[@id='next'][@type='submit'][@value='Nextt']}]]>
             </message>
             <full-stacktrace>
@@ -59,8 +59,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
 System info: host: 'GOVTECH-CTMO-02', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=19512, browserVersion=51.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
-Session ID: 0f006edd-8b92-4241-98cb-7f4e8c0a15f8
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=1928, browserVersion=51.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 2b091bc7-e186-4a39-9967-c4d6a5585963
 *** Element info: {Using=xpath, value=.//*[@id='next'][@type='submit'][@value='Nextt']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -108,7 +108,7 @@ Session ID: 0f006edd-8b92-4241-98cb-7f4e8c0a15f8
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC3_InValidlogin -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="takeScreenShotOnFailure" is-config="true" duration-ms="81" started-at="2017-02-08T00:37:32Z" finished-at="2017-02-08T00:37:32Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@4bec1f0c]" name="takeScreenShotOnFailure" is-config="true" duration-ms="114" started-at="2017-02-08T17:39:56Z" finished-at="2017-02-08T17:39:56Z">
           <params>
             <param index="0">
               <value>
