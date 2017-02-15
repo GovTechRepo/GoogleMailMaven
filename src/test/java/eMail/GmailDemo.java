@@ -2,12 +2,10 @@ package eMail;
 
 import java.util.concurrent.TimeUnit;
 
-import org.eclipse.jdt.internal.compiler.ast.AssertStatement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -36,11 +34,9 @@ public class GmailDemo {
 
 		driver.findElement(By.cssSelector("#Email")).clear();
 		driver.findElement(By.cssSelector("#Email")).sendKeys("govtechtesting");
-				
-		//driver.findElement(By.xpath("//input[contains(@value,'Next')]")).click();
-		
-		driver.findElement(By.xpath(".//*[@id='next'][@type='submit'][@value='Next']")).click();
-												
+
+		driver.findElement(By.xpath("//input[@Value='Next']"));
+
 		driver.findElement(By.cssSelector("#Passwd")).clear();
 		driver.findElement(By.cssSelector("#Passwd")).sendKeys("govtechtesting1");
 		driver.findElement(By.cssSelector("#signIn")).click();
@@ -48,7 +44,6 @@ public class GmailDemo {
 		System.out.println(driver.getTitle());
 	}
 
-	
 	@Test(priority = 4)
 	public void TC4_Compose() throws Exception {
 
