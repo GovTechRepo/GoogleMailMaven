@@ -35,7 +35,10 @@ public class GmailDemo {
 		driver.findElement(By.cssSelector("#Email")).clear();
 		driver.findElement(By.cssSelector("#Email")).sendKeys("govtechtesting");
 
-		driver.findElement(By.xpath("//input[@Value='Next']"));
+		//driver.findElement(By.xpath("//input[@Value='Next']"));
+		
+		WebElement nextBtn = driver.findElement(By.xpath("//input[@id='next']"));
+		nextBtn.click();
 
 		driver.findElement(By.cssSelector("#Passwd")).clear();
 		driver.findElement(By.cssSelector("#Passwd")).sendKeys("govtechtesting1");
