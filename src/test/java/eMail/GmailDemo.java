@@ -33,7 +33,7 @@ public class GmailDemo {
 		driver.findElement(By.xpath(".//*[@id='gbw']/div/div/div[1]/div[1]/a")).click();
 
 		driver.findElement(By.cssSelector("#Email")).clear();
-		driver.findElement(By.cssSelector("#Email")).sendKeys("govtechtesting");
+		driver.findElement(By.cssSelector("#Email")).sendKeys("govtechtestingG");
 
 		//driver.findElement(By.xpath("//input[@Value='Next']"));
 				
