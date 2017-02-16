@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22007" started-at="2017-02-15T08:51:47Z" finished-at="2017-02-15T08:52:09Z">
+  <suite name="Default suite" duration-ms="27991" started-at="2017-02-16T05:41:39Z" finished-at="2017-02-16T05:42:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22007" started-at="2017-02-15T08:51:47Z" finished-at="2017-02-15T08:52:09Z">
+    <test name="Default test" duration-ms="27991" started-at="2017-02-16T05:41:39Z" finished-at="2017-02-16T05:42:07Z">
       <class name="eMail.GmailDemo">
-        <test-method status="PASS" signature="driverLaunch()[pri:0, instance:eMail.GmailDemo@73846619]" name="driverLaunch" is-config="true" duration-ms="19" started-at="2017-02-15T16:51:47Z" finished-at="2017-02-15T16:51:47Z">
+        <test-method status="PASS" signature="driverLaunch()[pri:0, instance:eMail.GmailDemo@73846619]" name="driverLaunch" is-config="true" duration-ms="7" started-at="2017-02-16T13:41:39Z" finished-at="2017-02-16T13:41:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverLaunch -->
-        <test-method status="PASS" signature="TC1_OpenBrowser()[pri:1, instance:eMail.GmailDemo@73846619]" name="TC1_OpenBrowser" duration-ms="2682" started-at="2017-02-15T16:51:47Z" finished-at="2017-02-15T16:51:49Z">
+        <test-method status="PASS" signature="TC1_OpenBrowser()[pri:1, instance:eMail.GmailDemo@73846619]" name="TC1_OpenBrowser" duration-ms="2624" started-at="2017-02-16T13:41:39Z" finished-at="2017-02-16T13:41:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1_OpenBrowser -->
-        <test-method status="PASS" signature="TC2_LaunchGoogle()[pri:2, instance:eMail.GmailDemo@73846619]" name="TC2_LaunchGoogle" duration-ms="1223" started-at="2017-02-15T16:51:49Z" finished-at="2017-02-15T16:51:51Z">
+        <test-method status="PASS" signature="TC2_LaunchGoogle()[pri:2, instance:eMail.GmailDemo@73846619]" name="TC2_LaunchGoogle" duration-ms="2827" started-at="2017-02-16T13:41:42Z" finished-at="2017-02-16T13:41:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC2_LaunchGoogle -->
-        <test-method status="PASS" signature="TC3_validlogin()[pri:3, instance:eMail.GmailDemo@73846619]" name="TC3_validlogin" duration-ms="987" started-at="2017-02-15T16:51:51Z" finished-at="2017-02-15T16:51:52Z">
+        <test-method status="PASS" signature="TC3_validlogin()[pri:3, instance:eMail.GmailDemo@73846619]" name="TC3_validlogin" duration-ms="1508" started-at="2017-02-16T13:41:45Z" finished-at="2017-02-16T13:41:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC3_validlogin -->
-        <test-method status="PASS" signature="TC4_Compose()[pri:4, instance:eMail.GmailDemo@73846619]" name="TC4_Compose" duration-ms="12393" started-at="2017-02-15T16:51:52Z" finished-at="2017-02-15T16:52:04Z">
+        <test-method status="PASS" signature="TC4_Compose()[pri:4, instance:eMail.GmailDemo@73846619]" name="TC4_Compose" duration-ms="16227" started-at="2017-02-16T13:41:46Z" finished-at="2017-02-16T13:42:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC4_Compose -->
-        <test-method status="PASS" signature="TC5_SignOut()[pri:5, instance:eMail.GmailDemo@73846619]" name="TC5_SignOut" duration-ms="4690" started-at="2017-02-15T16:52:04Z" finished-at="2017-02-15T16:52:09Z">
+        <test-method status="PASS" signature="TC5_SignOut()[pri:5, instance:eMail.GmailDemo@73846619]" name="TC5_SignOut" duration-ms="4780" started-at="2017-02-16T13:42:02Z" finished-at="2017-02-16T13:42:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC5_SignOut -->
