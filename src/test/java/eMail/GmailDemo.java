@@ -76,7 +76,7 @@ public class GmailDemo {
 		//driver.findElement(By.className("gb_yb")).click();
 		
 		
-		WebElement Gelement = driver.findElement(By.cssSelector(".gb_9a.gbii"));
+		WebElement Gelement = driver.findElement(By.cssSelector(".gb_9a.gbiii"));
 		Gelement.click();
 
 		//driver.findElement(By.id("gb_71")).click();
