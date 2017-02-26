@@ -73,9 +73,13 @@ public class GmailDemo {
 		driver.findElement(By.xpath(".//*[@id='gb']/div[1]/div[1]/div[2]/div[4]/div[1]/a/span")).click();
 		Thread.sleep(3000);
 
-		driver.findElement(By.className("gb_yb")).click();
+		//driver.findElement(By.className("gb_yb")).click();
+		
+		
+		WebElement Gelement = driver.findElement(By.cssSelector(".gb_9a.gbii"));
+		Gelement.click();
 
-		driver.findElement(By.id("gb_71")).click();
+		//driver.findElement(By.id("gb_71")).click();
 
 		System.out.println("Sign out successfully");
 
