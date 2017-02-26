@@ -3,6 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+      <class name="eMail.GmailDemo_InValidLogin">
+        <methods>
+          <include name="driverLaunch"/>
+          <include name="takeScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- eMail.GmailDemo_InValidLogin -->
       <class name="eMail.GmailDemo">
         <methods>
           <include name="driverLaunch"/>

@@ -81,7 +81,7 @@ public class GmailDemo {
 
 		//driver.findElement(By.id("gb_71")).click();
 
-		System.out.println("Sign out successfullyy");
+		System.out.println("Sign out successfully");
 
 		driver.quit();
 
