@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53145" started-at="2017-02-26T23:36:16Z" finished-at="2017-02-26T23:37:09Z">
+  <suite name="Default suite" duration-ms="53729" started-at="2017-02-26T23:40:49Z" finished-at="2017-02-26T23:41:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53145" started-at="2017-02-26T23:36:16Z" finished-at="2017-02-26T23:37:09Z">
+    <test name="Default test" duration-ms="53729" started-at="2017-02-26T23:40:49Z" finished-at="2017-02-26T23:41:43Z">
       <class name="eMail.GmailDemo">
-        <test-method status="PASS" signature="driverLaunch()[pri:0, instance:eMail.GmailDemo@5649fd9b]" name="driverLaunch" is-config="true" duration-ms="7" started-at="2017-02-27T07:36:16Z" finished-at="2017-02-27T07:36:16Z">
+        <test-method status="PASS" signature="driverLaunch()[pri:0, instance:eMail.GmailDemo@5649fd9b]" name="driverLaunch" is-config="true" duration-ms="7" started-at="2017-02-27T07:40:49Z" finished-at="2017-02-27T07:40:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverLaunch -->
-        <test-method status="PASS" signature="driverLaunch()[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="driverLaunch" is-config="true" duration-ms="0" started-at="2017-02-27T07:36:16Z" finished-at="2017-02-27T07:36:16Z">
+        <test-method status="PASS" signature="driverLaunch()[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="driverLaunch" is-config="true" duration-ms="0" started-at="2017-02-27T07:40:49Z" finished-at="2017-02-27T07:40:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverLaunch -->
-        <test-method status="PASS" signature="TC1_OpenBrowser()[pri:1, instance:eMail.GmailDemo@5649fd9b]" name="TC1_OpenBrowser" duration-ms="2628" started-at="2017-02-27T07:36:16Z" finished-at="2017-02-27T07:36:19Z">
+        <test-method status="PASS" signature="TC1_OpenBrowser()[pri:1, instance:eMail.GmailDemo@5649fd9b]" name="TC1_OpenBrowser" duration-ms="2769" started-at="2017-02-27T07:40:49Z" finished-at="2017-02-27T07:40:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1_OpenBrowser -->
-        <test-method status="PASS" signature="TC2_LaunchGoogle()[pri:2, instance:eMail.GmailDemo@5649fd9b]" name="TC2_LaunchGoogle" duration-ms="1145" started-at="2017-02-27T07:36:21Z" finished-at="2017-02-27T07:36:22Z">
+        <test-method status="PASS" signature="TC2_LaunchGoogle()[pri:2, instance:eMail.GmailDemo@5649fd9b]" name="TC2_LaunchGoogle" duration-ms="1149" started-at="2017-02-27T07:40:55Z" finished-at="2017-02-27T07:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC2_LaunchGoogle -->
-        <test-method status="PASS" signature="TC3_validlogin()[pri:3, instance:eMail.GmailDemo@5649fd9b]" name="TC3_validlogin" duration-ms="1955" started-at="2017-02-27T07:36:23Z" finished-at="2017-02-27T07:36:25Z">
+        <test-method status="PASS" signature="TC3_validlogin()[pri:3, instance:eMail.GmailDemo@5649fd9b]" name="TC3_validlogin" duration-ms="1079" started-at="2017-02-27T07:40:57Z" finished-at="2017-02-27T07:40:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC3_validlogin -->
-        <test-method status="PASS" signature="TC4_Compose()[pri:4, instance:eMail.GmailDemo@5649fd9b]" name="TC4_Compose" duration-ms="9441" started-at="2017-02-27T07:36:27Z" finished-at="2017-02-27T07:36:36Z">
+        <test-method status="PASS" signature="TC4_Compose()[pri:4, instance:eMail.GmailDemo@5649fd9b]" name="TC4_Compose" duration-ms="10625" started-at="2017-02-27T07:40:59Z" finished-at="2017-02-27T07:41:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC4_Compose -->
-        <test-method status="FAIL" signature="TC5_SignOut()[pri:5, instance:eMail.GmailDemo@5649fd9b]" name="TC5_SignOut" duration-ms="33122" started-at="2017-02-27T07:36:36Z" finished-at="2017-02-27T07:37:09Z">
+        <test-method status="FAIL" signature="TC5_SignOut()[pri:5, instance:eMail.GmailDemo@5649fd9b]" name="TC5_SignOut" duration-ms="33143" started-at="2017-02-27T07:41:10Z" finished-at="2017-02-27T07:41:43Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: .gb_9a.gbiii
@@ -39,8 +39,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
 System info: host: 'GOVTECH-CTMO-02', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=10888, browserVersion=51.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
-Session ID: e86f8c13-e4cd-491a-84d4-e9be344c3f5e
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=11904, browserVersion=51.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: ac8d3ac3-56e4-456d-8fb2-715686a8ab4a
 *** Element info: {Using=css selector, value=.gb_9a.gbiii}]]>
             </message>
             <full-stacktrace>
@@ -49,8 +49,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
 System info: host: 'GOVTECH-CTMO-02', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=10888, browserVersion=51.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
-Session ID: e86f8c13-e4cd-491a-84d4-e9be344c3f5e
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20170125094131, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=11904, browserVersion=51.0.1, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: ac8d3ac3-56e4-456d-8fb2-715686a8ab4a
 *** Element info: {Using=css selector, value=.gb_9a.gbiii}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -100,11 +100,11 @@ Session ID: e86f8c13-e4cd-491a-84d4-e9be344c3f5e
         </test-method> <!-- TC5_SignOut -->
       </class> <!-- eMail.GmailDemo -->
       <class name="eMail.GmailDemo_InValidLogin">
-        <test-method status="PASS" signature="TC1_OpenBrowser()[pri:1, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="TC1_OpenBrowser" duration-ms="2402" started-at="2017-02-27T07:36:19Z" finished-at="2017-02-27T07:36:21Z">
+        <test-method status="PASS" signature="TC1_OpenBrowser()[pri:1, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="TC1_OpenBrowser" duration-ms="2537" started-at="2017-02-27T07:40:52Z" finished-at="2017-02-27T07:40:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1_OpenBrowser -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2017-02-27T07:36:21Z" finished-at="2017-02-27T07:36:21Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2017-02-27T07:40:55Z" finished-at="2017-02-27T07:40:55Z">
           <params>
             <param index="0">
               <value>
@@ -115,11 +115,11 @@ Session ID: e86f8c13-e4cd-491a-84d4-e9be344c3f5e
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="TC2_LaunchGoogle()[pri:2, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="TC2_LaunchGoogle" duration-ms="860" started-at="2017-02-27T07:36:22Z" finished-at="2017-02-27T07:36:23Z">
+        <test-method status="PASS" signature="TC2_LaunchGoogle()[pri:2, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="TC2_LaunchGoogle" duration-ms="888" started-at="2017-02-27T07:40:56Z" finished-at="2017-02-27T07:40:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC2_LaunchGoogle -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-02-27T07:36:23Z" finished-at="2017-02-27T07:36:23Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-02-27T07:40:57Z" finished-at="2017-02-27T07:40:57Z">
           <params>
             <param index="0">
               <value>
@@ -130,11 +130,11 @@ Session ID: e86f8c13-e4cd-491a-84d4-e9be344c3f5e
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="TC3_InValidlogin()[pri:3, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="TC3_InValidlogin" duration-ms="1551" started-at="2017-02-27T07:36:25Z" finished-at="2017-02-27T07:36:27Z">
+        <test-method status="PASS" signature="TC3_InValidlogin()[pri:3, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="TC3_InValidlogin" duration-ms="1502" started-at="2017-02-27T07:40:58Z" finished-at="2017-02-27T07:40:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC3_InValidlogin -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-02-27T07:36:27Z" finished-at="2017-02-27T07:36:27Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-02-27T07:40:59Z" finished-at="2017-02-27T07:40:59Z">
           <params>
             <param index="0">
               <value>
