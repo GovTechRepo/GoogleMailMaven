@@ -54,7 +54,7 @@ public class GmailDemo {
 		composeElement.click();
 		Thread.sleep(4000);
 
-		driver.findElement(By.xpath("//textarea[@name='to']")).sendKeys("Gov Tech <govtechtesting@gmail.comm>");
+		driver.findElement(By.xpath("//textarea[@name='to']")).sendKeys("Gov Tech <govtechtesting@gmail.com>");
 
 		driver.findElement(By.name("subjectbox")).sendKeys("Test mail from Eclipse");
 		System.out.println("Entered in Subject box");
