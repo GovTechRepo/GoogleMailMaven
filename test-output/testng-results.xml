@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25506" started-at="2017-02-26T23:06:41Z" finished-at="2017-02-26T23:07:07Z">
+  <suite name="Default suite" duration-ms="26273" started-at="2017-02-26T23:11:34Z" finished-at="2017-02-26T23:12:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25506" started-at="2017-02-26T23:06:41Z" finished-at="2017-02-26T23:07:07Z">
+    <test name="Default test" duration-ms="26273" started-at="2017-02-26T23:11:34Z" finished-at="2017-02-26T23:12:00Z">
       <class name="eMail.GmailDemo">
-        <test-method status="PASS" signature="driverLaunch()[pri:0, instance:eMail.GmailDemo@5649fd9b]" name="driverLaunch" is-config="true" duration-ms="6" started-at="2017-02-27T07:06:41Z" finished-at="2017-02-27T07:06:41Z">
+        <test-method status="PASS" signature="driverLaunch()[pri:0, instance:eMail.GmailDemo@5649fd9b]" name="driverLaunch" is-config="true" duration-ms="8" started-at="2017-02-27T07:11:34Z" finished-at="2017-02-27T07:11:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverLaunch -->
-        <test-method status="PASS" signature="driverLaunch()[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="driverLaunch" is-config="true" duration-ms="0" started-at="2017-02-27T07:06:41Z" finished-at="2017-02-27T07:06:41Z">
+        <test-method status="PASS" signature="driverLaunch()[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="driverLaunch" is-config="true" duration-ms="0" started-at="2017-02-27T07:11:34Z" finished-at="2017-02-27T07:11:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverLaunch -->
-        <test-method status="PASS" signature="TC1_OpenBrowser()[pri:1, instance:eMail.GmailDemo@5649fd9b]" name="TC1_OpenBrowser" duration-ms="2687" started-at="2017-02-27T07:06:41Z" finished-at="2017-02-27T07:06:44Z">
+        <test-method status="PASS" signature="TC1_OpenBrowser()[pri:1, instance:eMail.GmailDemo@5649fd9b]" name="TC1_OpenBrowser" duration-ms="2720" started-at="2017-02-27T07:11:34Z" finished-at="2017-02-27T07:11:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1_OpenBrowser -->
-        <test-method status="PASS" signature="TC2_LaunchGoogle()[pri:2, instance:eMail.GmailDemo@5649fd9b]" name="TC2_LaunchGoogle" duration-ms="1136" started-at="2017-02-27T07:06:47Z" finished-at="2017-02-27T07:06:48Z">
+        <test-method status="PASS" signature="TC2_LaunchGoogle()[pri:2, instance:eMail.GmailDemo@5649fd9b]" name="TC2_LaunchGoogle" duration-ms="911" started-at="2017-02-27T07:11:39Z" finished-at="2017-02-27T07:11:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC2_LaunchGoogle -->
-        <test-method status="PASS" signature="TC3_validlogin()[pri:3, instance:eMail.GmailDemo@5649fd9b]" name="TC3_validlogin" duration-ms="1048" started-at="2017-02-27T07:06:49Z" finished-at="2017-02-27T07:06:50Z">
+        <test-method status="PASS" signature="TC3_validlogin()[pri:3, instance:eMail.GmailDemo@5649fd9b]" name="TC3_validlogin" duration-ms="1107" started-at="2017-02-27T07:11:42Z" finished-at="2017-02-27T07:11:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC3_validlogin -->
-        <test-method status="PASS" signature="TC4_Compose()[pri:4, instance:eMail.GmailDemo@5649fd9b]" name="TC4_Compose" duration-ms="10915" started-at="2017-02-27T07:06:51Z" finished-at="2017-02-27T07:07:02Z">
+        <test-method status="PASS" signature="TC4_Compose()[pri:4, instance:eMail.GmailDemo@5649fd9b]" name="TC4_Compose" duration-ms="10791" started-at="2017-02-27T07:11:45Z" finished-at="2017-02-27T07:11:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC4_Compose -->
-        <test-method status="PASS" signature="TC5_SignOut()[pri:5, instance:eMail.GmailDemo@5649fd9b]" name="TC5_SignOut" duration-ms="4644" started-at="2017-02-27T07:07:02Z" finished-at="2017-02-27T07:07:07Z">
+        <test-method status="PASS" signature="TC5_SignOut()[pri:5, instance:eMail.GmailDemo@5649fd9b]" name="TC5_SignOut" duration-ms="4623" started-at="2017-02-27T07:11:56Z" finished-at="2017-02-27T07:12:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC5_SignOut -->
       </class> <!-- eMail.GmailDemo -->
       <class name="eMail.GmailDemo_InValidLogin">
-        <test-method status="PASS" signature="TC1_OpenBrowser()[pri:1, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="TC1_OpenBrowser" duration-ms="2609" started-at="2017-02-27T07:06:44Z" finished-at="2017-02-27T07:06:47Z">
+        <test-method status="PASS" signature="TC1_OpenBrowser()[pri:1, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="TC1_OpenBrowser" duration-ms="2479" started-at="2017-02-27T07:11:37Z" finished-at="2017-02-27T07:11:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1_OpenBrowser -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2017-02-27T07:06:47Z" finished-at="2017-02-27T07:06:47Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2017-02-27T07:11:39Z" finished-at="2017-02-27T07:11:39Z">
           <params>
             <param index="0">
               <value>
@@ -52,11 +52,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="TC2_LaunchGoogle()[pri:2, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="TC2_LaunchGoogle" duration-ms="925" started-at="2017-02-27T07:06:48Z" finished-at="2017-02-27T07:06:49Z">
+        <test-method status="PASS" signature="TC2_LaunchGoogle()[pri:2, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="TC2_LaunchGoogle" duration-ms="2140" started-at="2017-02-27T07:11:40Z" finished-at="2017-02-27T07:11:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC2_LaunchGoogle -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2017-02-27T07:06:49Z" finished-at="2017-02-27T07:06:49Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-02-27T07:11:42Z" finished-at="2017-02-27T07:11:42Z">
           <params>
             <param index="0">
               <value>
@@ -67,11 +67,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShotOnFailure -->
-        <test-method status="PASS" signature="TC3_InValidlogin()[pri:3, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="TC3_InValidlogin" duration-ms="1502" started-at="2017-02-27T07:06:50Z" finished-at="2017-02-27T07:06:51Z">
+        <test-method status="PASS" signature="TC3_InValidlogin()[pri:3, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="TC3_InValidlogin" duration-ms="1468" started-at="2017-02-27T07:11:43Z" finished-at="2017-02-27T07:11:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC3_InValidlogin -->
-        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-02-27T07:06:51Z" finished-at="2017-02-27T07:06:51Z">
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:eMail.GmailDemo_InValidLogin@6adede5]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2017-02-27T07:11:45Z" finished-at="2017-02-27T07:11:45Z">
           <params>
             <param index="0">
               <value>
